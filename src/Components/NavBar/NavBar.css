@@ -1,0 +1,22 @@
+.menu-nav{
+    background-color:var(--background) !important;
+}
+
+.open{
+    display: block;
+}
+.li-menu{
+    color: var(--text1);
+}
+.active{
+   background:var(--gradient-gold) !important;
+    color: var(--background);
+    border-radius: 2%;
+    padding: 5px;
+}
+@media (max-width:1000px) {
+    .display-none{
+
+    display: none;
+}
+}
