@@ -1,5 +1,10 @@
 .btn-1{
 
 background:var(--gradient-gold) !important;
-
+color:black ;
+}
+.btn-2{
+    
+background:var(--color-black) !important;
+color: white;
 }

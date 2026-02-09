@@ -1,22 +1,22 @@
-.menu-nav{
-    background-color:var(--background) !important;
+.menu-nav {
+  background-color: var(--background) !important;
+  z-index: 200;
 }
 
-.open{
-    display: block;
+.open {
+  display: block;
 }
-.li-menu{
-    color: var(--text1);
+.li-menu {
+  color: var(--text1);
 }
-.active{
-   background:var(--gradient-gold) !important;
-    color: var(--background);
-    border-radius: 2%;
-    padding: 5px;
+.active {
+  background: var(--gradient-gold) !important;
+  color: var(--background);
+  border-radius: 2%;
+  padding: 5px;
 }
-@media (max-width:1000px) {
-    .display-none{
-
+@media (max-width: 1000px) {
+  .display-none {
     display: none;
-}
+  }
 }

@@ -11,19 +11,28 @@ export default function NavBar() {
 
   return (
     <nav
-      className="menu-nav flex justify-between items-center w-full h-24 "
+      className="menu-nav  flex justify-between items-center w-full h-24 px-10 fixed"
       onClick={toggleNav}
     >
-      <img src={logo} className="w-60" />
+      <img src={logo} className="w-50 h-50 object-cover" />
 
       <ul
-        className={` w-full h-full flex justify-center items-center gap-4 text-white   ${navOpen ? "open" : "display-none"}`}
+        className={`w-1/3 h-full flex justify-between items-center gap-4 text-white   ${navOpen ? "open" : "display-none"}`}
       >
         <li className="li-menu">
           <NavLink to="/">Home</NavLink>
         </li>
         <li className="li-menu">
-          <NavLink to="/pp">Home</NavLink>
+          <NavLink to="/About">About</NavLink>
+        </li>
+        <li className="li-menu">
+          <NavLink to="/Register">Register</NavLink>
+        </li>
+        <li className="li-menu">
+          <NavLink to="/Portfolio">Portfolios</NavLink>
+        </li>
+        <li className="li-menu">
+          <NavLink to="/MyProfile">My Portfolio</NavLink>
         </li>
       </ul>
     </nav>

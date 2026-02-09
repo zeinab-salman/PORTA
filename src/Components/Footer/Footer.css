@@ -1,0 +1,9 @@
+.footer {
+  background-color: var(--background);
+}
+.icons-footer {
+  color: var(--title-span);
+}
+.develop-text {
+  color: var(--title-span);
+}

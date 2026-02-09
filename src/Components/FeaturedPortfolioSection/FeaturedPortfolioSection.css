@@ -1,0 +1,6 @@
+.featured-portfolio-section {
+  background-color: var(--background);
+}
+.cards-featured-div {
+  gap: 2%;
+}

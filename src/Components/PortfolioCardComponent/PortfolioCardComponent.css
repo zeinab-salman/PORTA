@@ -1,0 +1,19 @@
+.portfolio-card {
+  background-color: var(--card);
+  border: 0.1rem solid rgb(55, 55, 55);
+  width: 32%;
+}
+.portfolio-card:hover {
+  border: 1px solid #dfaf37;
+  transition: 1s;
+  color: #dfaf37;
+}
+.portfolio-card:hover.portfolio-card img {
+  border: 2px solid #dfaf37;
+  box-shadow: 2px 2px 20px 2px #dfaf37;
+}
+@media (max-width: 1000px) {
+  .portfolio-card {
+    width: 100%;
+  }
+}
