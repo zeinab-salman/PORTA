@@ -75,7 +75,7 @@ export default function Register() {
   return (
     <section className="register-sec flex flex-col justify-center items-center py-40 px-10 w-full  ">
       <form
-        className="register-form flex flex-col justify-center items-center py-20 px-5 text-white rounded-lg w-100 gap-4 gold-border sm:w-full md:w-100"
+        className="register-form flex flex-col justify-center items-center py-20 px-5 text-white rounded-lg  gap-4 gold-border w-full md:w-100"
         onSubmit={handleSubmit}
       >
         <h2 className="mb-10">Sign Up Account</h2>
@@ -100,7 +100,7 @@ export default function Register() {
             setForm({ ...form, confirmPassword: e.target.value })
           }
         />
-        <ButtonComponent text="Create Account" type="btn-1" padding="px-27 py-4 "   icon={ MdSupervisorAccount  } />
+        <ButtonComponent text="Create Account" type="btn-1" padding=" px-[10%] py-4 md:px-27"   icon={ MdSupervisorAccount  } />
       </form>
     </section>
   );

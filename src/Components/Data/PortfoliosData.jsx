@@ -11,6 +11,7 @@ export const PortfoliosData = [
     img: img1,
     job: "Senior Product Designer ",
     skills: ["UI/UX Design", "Figma", "Prototyping  "],
+    categor:"design"
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const PortfoliosData = [
     img: img2,
     job: " Full-Stack Engineer",
     skills: ["Node.js", "react", "TypeScript"],
+        categor:"programming"
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const PortfoliosData = [
     img: img3,
     job: "Creative Director  ",
     skills: ["Brand Strategy", " Art Direction", " Motion Design"],
+        categor:"design"
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ export const PortfoliosData = [
     img: img4,
     job: "Chemist ",
     skills: ["Laboratory Techniques", "QC", "Lab Safety"],
+        categor:"chemistry"
   },
   {
     id: 5,
@@ -39,6 +43,7 @@ export const PortfoliosData = [
     img: img5,
     job: " Data Scientist  ",
     skills: ["Python", "TensorFlow", "PyTorch "],
+        categor:"data science"
   },
   {
     id: 6,
@@ -46,5 +51,54 @@ export const PortfoliosData = [
     img: img6,
     job: " Architect",
     skills: ["AutoCAD", "Revit", "BIM"],
+        categor:"architecture"
+  },
+    {
+    id: 7,
+    person: "Alexandra Chen ",
+    img: img1,
+    job: "Senior Product Designer ",
+    skills: ["UI/UX Design", "Figma", "Prototyping  "],
+        categor:"design"
+  },
+  {
+    id: 8,
+    person: " Marcus Williams",
+    img: img2,
+    job: " Full-Stack Engineer",
+    skills: ["Node.js", "react", "TypeScript"],
+        categor:"programming"
+  },
+  {
+    id: 9,
+    person: "Sophia Rodriguez  ",
+    img: img3,
+    job: "Creative Director  ",
+    skills: ["Brand Strategy", " Art Direction", " Motion Design"],
+        categor:"design"
+  },
+  {
+    id: 10,
+    person: "James Park  ",
+    img: img4,
+    job: "Chemist ",
+    skills: ["Laboratory Techniques", "QC", "Lab Safety"],
+        categor:"chemistry"
+  },
+  {
+    id: 11,
+    person: " Emma Thompson",
+    img: img5,
+    job: " Data Scientist  ",
+    skills: ["Python", "TensorFlow", "PyTorch "],
+        categor:"data science"
+  },
+  {
+    id: 12,
+    person: "David Kim ",
+    img: img6,
+    job: " Architect",
+    skills: ["AutoCAD", "Revit", "BIM"],
+        categor:"architecture"
   },
 ];

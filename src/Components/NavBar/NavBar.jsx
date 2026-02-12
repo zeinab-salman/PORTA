@@ -29,7 +29,7 @@ export default function NavBar() {
           <NavLink to="/Login">Login</NavLink>
         </li>
         <li className="li-menu">
-          <NavLink to="/Portfolio">Portfolios</NavLink>
+          <NavLink to="/Collections">Collections</NavLink>
         </li>
         <li className="li-menu">
           <NavLink to="/MyProfile">My Portfolio</NavLink>

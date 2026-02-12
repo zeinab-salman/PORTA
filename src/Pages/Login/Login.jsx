@@ -14,7 +14,6 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { state } = useLocation();
-
   const [status1, setStatus1] = useState("active");
   const [role, setRole] = useState("user");
   useEffect(() => {
@@ -28,10 +27,8 @@ export default function Login() {
       setRole(state.isAdmin ? "admin" : "user");
     }
   }, [state?.isAdmin]);
-
   const handleSubmit = (e) => {
     e.preventDefault();
-
     const users = JSON.parse(localStorage.getItem("users")) || [];
     console.log("Users in LocalStorage:", users);
 
@@ -40,7 +37,6 @@ export default function Login() {
     );
     console.log("Found User:", user);
 
-  
     if (!user) {
       toast.error("There is no account", {
         duration: 4000,
@@ -62,36 +58,40 @@ export default function Login() {
       });
       return;
     }
-
     login("dummy-token", user);
     navigate("/VerificationCode");
   };
-
   return (
     <section className="login-sec register-sec flex flex-col justify-center items-center py-40 px-10 w-full  ">
-    
-        <form className="login-form  flex flex-col justify-center items-center py-20 px-5 text-white rounded-lg w-100 gap-4 gold-border sm:w-full md:w-100  " onSubmit={handleSubmit}>
-          <h2>Login</h2>
+      <form
+        className="login-form flex flex-col justify-center items-center py-20 px-5 text-white rounded-lg w-full gap-4 gold-border  md:w-100  "
+        onSubmit={handleSubmit}
+      >
+        <h2>Login</h2>
 
-          <FormInput
-            type="email"
-            placeholder="Email"
-            onChange={(e) => setEmail(e.target.value)}
-          />
+        <FormInput
+          type="email"
+          placeholder="Email"
+          onChange={(e) => setEmail(e.target.value)}
+        />
 
-          <FormInput
-            type="password"
-            placeholder="Password"
-            onChange={(e) => setPassword(e.target.value)}
-          />
+        <FormInput
+          type="password"
+          placeholder="Password"
+          onChange={(e) => setPassword(e.target.value)}
+        />
 
-          <ButtonComponent text="Login" type="btn-1" padding="px-36 py-4 "   icon={ MdSupervisorAccount  } />
+        <ButtonComponent
+          text="Login"
+          type="btn-1"
+          padding="px-[10%] py-4 md:px-36  "
+          icon={MdSupervisorAccount}
+        />
 
-          <p>
-            Don’t have an account? <Link to="/Register">Register</Link>
-          </p>
-        </form>
-    
+        <p>
+          Don’t have an account? <Link to="/Register">Register</Link>
+        </p>
+      </form>
     </section>
   );
 }
