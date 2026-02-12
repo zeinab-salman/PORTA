@@ -1,11 +1,11 @@
-.homeHeroSection {
+.aboutHeroSection {
   height: 85vh;
   background-image: url("../../../public/Images/bg2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.layer {
+.layer-about {
   height: 85vh;
   background-color: rgba(0, 0, 0, 0.757);
 }

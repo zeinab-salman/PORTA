@@ -1,0 +1,26 @@
+
+.how-work-card {
+  background-color: var(--card);
+  border: 0.1rem solid rgb(55, 55, 55);
+  width: 31.7%;
+}
+.how-work-card:hover {
+  border: 1px solid #dfaf37;
+  transition: 1s;
+}
+.how-work-card:hover.how-work-card .icon-work-card-div {
+  border: 2px solid #dfaf37;
+  box-shadow: 2px 2px 20px 2px #dfaf37;
+}
+.title-span-card-work {
+  color:#dfaf37 !important ;
+}
+#card-work-icon{
+color:#dfaf37 !important ;
+
+}
+@media (max-width: 1000px) {
+  .how-work-card {
+    width: 100%;
+  }
+}

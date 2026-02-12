@@ -26,7 +26,7 @@ export default function NavBar() {
           <NavLink to="/About">About</NavLink>
         </li>
         <li className="li-menu">
-          <NavLink to="/Register">Register</NavLink>
+          <NavLink to="/Login">Login</NavLink>
         </li>
         <li className="li-menu">
           <NavLink to="/Portfolio">Portfolios</NavLink>
