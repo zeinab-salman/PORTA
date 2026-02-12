@@ -8,3 +8,10 @@ color:black ;
 background:var(--color-black) !important;
 color: white;
 }
+.btn-3{
+color:var(--title-span) ;
+border: 1px solid var(--title-span);
+border-radius: 50px;
+;
+
+}

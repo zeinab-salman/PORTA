@@ -11,7 +11,7 @@ export const PortfoliosData = [
     img: img1,
     job: "Senior Product Designer ",
     skills: ["UI/UX Design", "Figma", "Prototyping  "],
-    categor:"design"
+    categor: "Design",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const PortfoliosData = [
     img: img2,
     job: " Full-Stack Engineer",
     skills: ["Node.js", "react", "TypeScript"],
-        categor:"programming"
+    categor: "Programming",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ export const PortfoliosData = [
     img: img3,
     job: "Creative Director  ",
     skills: ["Brand Strategy", " Art Direction", " Motion Design"],
-        categor:"design"
+    categor: "Design",
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ export const PortfoliosData = [
     img: img4,
     job: "Chemist ",
     skills: ["Laboratory Techniques", "QC", "Lab Safety"],
-        categor:"chemistry"
+    categor: "Chemistry",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ export const PortfoliosData = [
     img: img5,
     job: " Data Scientist  ",
     skills: ["Python", "TensorFlow", "PyTorch "],
-        categor:"data science"
+    categor: "Data Science",
   },
   {
     id: 6,
@@ -51,15 +51,15 @@ export const PortfoliosData = [
     img: img6,
     job: " Architect",
     skills: ["AutoCAD", "Revit", "BIM"],
-        categor:"architecture"
+    categor: "Architecture",
   },
-    {
+  {
     id: 7,
     person: "Alexandra Chen ",
     img: img1,
     job: "Senior Product Designer ",
     skills: ["UI/UX Design", "Figma", "Prototyping  "],
-        categor:"design"
+    categor: "Design",
   },
   {
     id: 8,
@@ -67,7 +67,7 @@ export const PortfoliosData = [
     img: img2,
     job: " Full-Stack Engineer",
     skills: ["Node.js", "react", "TypeScript"],
-        categor:"programming"
+    categor: "Programming",
   },
   {
     id: 9,
@@ -75,7 +75,7 @@ export const PortfoliosData = [
     img: img3,
     job: "Creative Director  ",
     skills: ["Brand Strategy", " Art Direction", " Motion Design"],
-        categor:"design"
+    categor: "Design",
   },
   {
     id: 10,
@@ -83,7 +83,7 @@ export const PortfoliosData = [
     img: img4,
     job: "Chemist ",
     skills: ["Laboratory Techniques", "QC", "Lab Safety"],
-        categor:"chemistry"
+    categor: "Chemistry",
   },
   {
     id: 11,
@@ -91,7 +91,7 @@ export const PortfoliosData = [
     img: img5,
     job: " Data Scientist  ",
     skills: ["Python", "TensorFlow", "PyTorch "],
-        categor:"data science"
+    categor: "Data Science",
   },
   {
     id: 12,
@@ -99,6 +99,6 @@ export const PortfoliosData = [
     img: img6,
     job: " Architect",
     skills: ["AutoCAD", "Revit", "BIM"],
-        categor:"architecture"
+    categor: "Architecture",
   },
 ];

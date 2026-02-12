@@ -1,4 +1,4 @@
-const containerVariants = {
+export const containerVariants = {
   hidden: {
     opacity: 0,
   },
@@ -11,7 +11,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+export const itemVariants = {
   hidden: {
     opacity: 0,
     y: 16,

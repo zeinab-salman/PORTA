@@ -1,19 +1,6 @@
-.portfolios-filter {
-    flex-wrap: wrap;
-    gap: 53px;
-    margin-top: 40px;
-    width: 100%;
-    padding: 70px 0px;
+.collections-sec{
+  background-color: var(--background);
 }
-
-
-@media (max-width:1200px) {
-    .portfolios-filter {
-        flex-wrap: wrap;
-        gap: 60px;
-        padding: 40px 20px;
-      
-        
-    }
-    
+.portfolios-filter{
+  gap: 2%;
 }

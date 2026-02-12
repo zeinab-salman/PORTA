@@ -7,7 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import toast, { Toaster } from "react-hot-toast";
 import Register from "./Pages/Register/Register";
 import Login from "./Pages/Login/Login";
-import CollectionsHero from "./Components/CollectionsHero/CollectionsHero";
+import Collections from "./Pages/Collections/Collections";
 function App() {
   return (
     <>
@@ -18,7 +18,7 @@ function App() {
         <Route path="/About" element={<About/>}/>
         <Route path="/Login" element={<Login/>}/>
         <Route path="/Register" element={<Register/>}/>
-          <Route path="/Collections" element={<CollectionsHero/>}/>
+          <Route path="/Collections" element={<Collections/>}/>
       </Routes>
       <Footer />
     </>

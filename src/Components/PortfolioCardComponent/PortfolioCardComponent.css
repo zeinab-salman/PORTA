@@ -16,4 +16,8 @@
   .portfolio-card {
     width: 100%;
   }
+  .card-btns{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }

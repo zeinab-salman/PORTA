@@ -59,7 +59,7 @@ export default function Login() {
       return;
     }
     login("dummy-token", user);
-    navigate("/VerificationCode");
+    navigate("/");
   };
   return (
     <section className="login-sec register-sec flex flex-col justify-center items-center py-40 px-10 w-full  ">
@@ -89,7 +89,7 @@ export default function Login() {
         />
 
         <p>
-          Don’t have an account? <Link to="/Register">Register</Link>
+          Don’t have an account? <Link to="/Register" className="text-yellow-500">Register</Link>
         </p>
       </form>
     </section>
