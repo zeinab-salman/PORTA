@@ -1,5 +1,9 @@
 import { createContext, useState, useContext, useEffect } from "react";
+
+// إنشاء Context لتخزين بيانات المستخدم
 export const AuthContext = createContext();
+
+// توفير بيانات المستخدم للمكونات
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(() => {
     const savedUser = localStorage.getItem("user_info");
@@ -22,7 +26,7 @@ export const AuthProvider = ({ children }) => {
 
   const logout = () => {
     localStorage.removeItem("token");
-
+    localStorage.removeItem("user_info");
     setUser(null);
   };
 
@@ -32,4 +36,6 @@ export const AuthProvider = ({ children }) => {
     </AuthContext.Provider>
   );
 };
+
+// استخدام الـ Context في المكونات الأخرى
 export const useAuth = () => useContext(AuthContext);

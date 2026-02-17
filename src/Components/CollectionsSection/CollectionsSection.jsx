@@ -1,4 +1,3 @@
-import React from "react";
 import "./CollectionsSection.css";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
@@ -9,8 +8,17 @@ import {
   containerVariants,
   itemVariants,
 } from "../ContainerVarient/ContainerVarient";
+
 import PortfolioCardComponent from "../PortfolioCardComponent/PortfolioCardComponent";
 export default function CollectionsSection() {
+  const [portfolios, setPortfolios] = useState([]);
+  useEffect(() => {
+    const stored = localStorage.getItem("all-portfolios");
+    if (stored) {
+      setPortfolios(JSON.parse(stored));
+    }
+  }, []);
+
   const [activeCategory, setActiveCategory] = useState("all");
   const location = useLocation();
   useEffect(() => {
@@ -22,9 +30,10 @@ export default function CollectionsSection() {
 
   const filteredPortfolios =
     activeCategory === "all"
-      ? PortfoliosData
-      : PortfoliosData.filter((item) => item.categor === activeCategory);
+      ? portfolios
+      : portfolios.filter((item) => item.categor === activeCategory);
   const ID = self.crypto.randomUUID();
+  console.log(portfolios);
   return (
     <section className="collections-sec flex flex-col justify-center items-center py-8 px-10 w-full ">
       <PortfolioFilter

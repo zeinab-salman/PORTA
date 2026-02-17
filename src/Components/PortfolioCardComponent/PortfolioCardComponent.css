@@ -12,6 +12,7 @@
   border: 2px solid #dfaf37;
   box-shadow: 2px 2px 20px 2px #dfaf37;
 }
+ 
 @media (max-width: 1000px) {
   .portfolio-card {
     width: 100%;

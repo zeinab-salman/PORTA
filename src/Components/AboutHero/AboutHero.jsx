@@ -18,7 +18,7 @@ export default function AboutHero() {
             
               <ButtonComponent
                 text="Contact Us  "
-                type="btn-1"
+                typeclass="btn-1"
                 icon={FaArrowAltCircleRight}
                 padding="px-10 py-4"
               />{" "}

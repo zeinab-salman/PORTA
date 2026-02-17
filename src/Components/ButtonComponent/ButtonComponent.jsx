@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ButtonComponent({
   text,
-  type,
+  typeclass,
   onClick,
   icon: Icon,
   padding,
@@ -18,7 +18,7 @@ export default function ButtonComponent({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ type: "spring", stiffness: 400, damping: 10 }}
-      className={` ${type}  ${padding} rounded-sm flex justify-center items-center gap-2 shadow-lg transition-colors  cursor-pointer`}
+      className={` ${typeclass}  ${padding} rounded-sm flex justify-center items-center gap-2 shadow-lg transition-colors  cursor-pointer`}
       onClick={onClick}
     >
       <Icon />

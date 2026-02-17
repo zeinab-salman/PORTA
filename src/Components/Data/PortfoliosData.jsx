@@ -12,6 +12,7 @@ export const PortfoliosData = [
     job: "Senior Product Designer ",
     skills: ["UI/UX Design", "Figma", "Prototyping  "],
     categor: "Design",
+  
   },
   {
     id: 2,
@@ -102,3 +103,10 @@ export const PortfoliosData = [
     categor: "Architecture",
   },
 ];
+const storedPortfolios = localStorage.getItem("all-portfolios");
+
+if (!storedPortfolios) {
+  localStorage.setItem("all-portfolios", JSON.stringify(PortfoliosData));
+} else {
+  console.log("loading data done", JSON.parse(storedPortfolios));
+}

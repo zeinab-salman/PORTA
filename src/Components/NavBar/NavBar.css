@@ -5,6 +5,16 @@
 
 .open {
   display: block;
+  padding: 20px;
+  margin-top: 300px;
+  background-color:var(--background);
+  border-radius: 10px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 .li-menu {
   color: var(--text1);
@@ -15,8 +25,17 @@
   border-radius: 2%;
   padding: 5px;
 }
+.log-out-btn{
+  cursor: pointer;
+}
+.display-none-icon{
+  display: none;
+}
 @media (max-width: 1000px) {
   .display-none {
     display: none;
   }
+  .display-none-icon{
+  display: block;
+}
 }

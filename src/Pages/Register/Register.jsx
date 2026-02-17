@@ -100,7 +100,12 @@ export default function Register() {
             setForm({ ...form, confirmPassword: e.target.value })
           }
         />
-        <ButtonComponent text="Create Account" type="btn-1" padding=" px-[10%] py-4 md:px-27"   icon={ MdSupervisorAccount  } />
+        <ButtonComponent
+          text="Create Account"
+          typeclass="btn-1"
+          padding=" px-[10%] py-4 md:px-27"
+          icon={MdSupervisorAccount}
+        />
       </form>
     </section>
   );

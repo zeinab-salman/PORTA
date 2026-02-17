@@ -10,7 +10,7 @@ const PortfolioFilter = ({ categories, activeCategory, onFilter }) => {
         icon={BiSolidCollection}
         padding="px-5 py-4 mb-10"
         text="All"
-        type={`btn-3 ${activeCategory === "all" ? "active1" : ""} `}
+        typeclass={`btn-3 ${activeCategory === "all" ? "active1" : ""} `}
       />
 
       {categories.map((cat, index) => (
@@ -18,7 +18,7 @@ const PortfolioFilter = ({ categories, activeCategory, onFilter }) => {
           key={index}
           onClick={() => onFilter(cat)}
           text={cat}
-          type={`btn-3 ${activeCategory === cat ? "active1" : ""} `}
+          typeclass={`btn-3 ${activeCategory === cat ? "active1" : ""} `}
           icon={BiSolidCollection}
           padding="px-5 py-4 mb-10"
         />

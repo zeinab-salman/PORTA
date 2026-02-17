@@ -20,7 +20,7 @@ export default function HomeHero() {
             <SearchComponent placeholder="Search by Role name..." />{" "}
             <ButtonComponent
               text="Create Portfolio  "
-              type="btn-1"
+              typeclass="btn-1"
               icon={FaPlus}
               padding="px-10 py-4"
             />{" "}

@@ -4,15 +4,19 @@ import App from "./App.jsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./Pages/Register/AuthProvider.jsx";
+import { PortfolioProvider } from "./Pages/EditPortfolio/PortfolioProvider.jsx";
 import { StoreData } from "./Components/Data/StoreData.jsx";
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <StoreData>
-    <AuthProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-    </AuthProvider>
-    </StoreData>
-  </StrictMode>,
+    <BrowserRouter>
+      <StoreData>
+        <AuthProvider>
+          <PortfolioProvider>
+            <App />
+          </PortfolioProvider>
+        </AuthProvider>
+      </StoreData>
+    </BrowserRouter>
+  </StrictMode>
 );

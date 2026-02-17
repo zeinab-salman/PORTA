@@ -6,6 +6,7 @@ export const StoreData = ({ children }) => {
   const [allUsers, setAllUsers] = useState(
     () => JSON.parse(localStorage.getItem("users")) || [],
   );
+
   const storeUsers = (userData) => {
     let allUsers = JSON.parse(localStorage.getItem("all-users")) || [];
     const existingIndex = allUsers.findIndex((u) => u.email === userData.email);
