@@ -49,14 +49,14 @@ export default function AddSkillsForm({ onClose }) {
         icon={FaPlus}
         text="Add Skill"
         onClick={handleSubmit}
-        padding="px-38 py-2"
+        padding="px-38 py-2 padding-sm"
       />
       <ButtonComponent
         typeclass="btn-1"
         icon={MdDelete}
         text="Delete All"
         onClick={handleDeleteAll}
-        padding="  px-38 py-2 flex items-center gap-2  "
+        padding="  px-38 py-2 flex items-center gap-2 padding-sm "
       />
       <AddProjectAndExperience />
     </form>

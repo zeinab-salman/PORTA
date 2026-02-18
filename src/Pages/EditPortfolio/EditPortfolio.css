@@ -1,3 +1,8 @@
 .section-edit-portfolio{
     background-image: url("../../../public/Images/bg1.png");
 }
+@media (max-width:1000px) {
+    .section-edit-portfolio{
+        padding: 130px 10px;
+    }
+}

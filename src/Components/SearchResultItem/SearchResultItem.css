@@ -1,0 +1,17 @@
+.search-result-item {
+  background-color: var(--card);
+  border: 0.1rem solid rgb(55, 55, 55);
+}
+.search-li {
+  background-color: #302b1d;
+  color: var(--title-span);
+  border: 1px solid #dfaf37;
+}
+.search-result-item:hover {
+  border: 0.1rem solid rgb(149, 112, 8);
+}
+@media (max-width: 500px) {
+  .search-result-item {
+    padding: 20px 10px;
+  }
+}

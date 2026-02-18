@@ -56,7 +56,7 @@ export default function Login() {
         className="login-form flex flex-col justify-center items-center py-20 px-5 text-white rounded-lg w-full gap-4 gold-border md:w-100"
         onSubmit={handleSubmit}
       >
-        <h2>Login</h2>
+        <h2 className="text-center">Login</h2>
 
         <FormInput
           type="email"

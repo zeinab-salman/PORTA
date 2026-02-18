@@ -78,7 +78,7 @@ export default function Register() {
         className="register-form flex flex-col justify-center items-center py-20 px-5 text-white rounded-lg  gap-4 gold-border w-full md:w-100"
         onSubmit={handleSubmit}
       >
-        <h2 className="mb-10">Sign Up Account</h2>
+        <h2 className="mb-10 text-center">Sign Up Account</h2>
         <FormInput
           placeholder="Full Name"
           onChange={(e) => setForm({ ...form, name: e.target.value })}

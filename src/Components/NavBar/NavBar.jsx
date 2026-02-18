@@ -34,7 +34,7 @@ export default function NavBar() {
         {user ? (
           <>
             <li className="li-menu">
-              <NavLink to="/EditProfile">Edit Portfolio</NavLink>
+              <NavLink to="/EditProfile">My Portfolio</NavLink>
             </li>
             <li className="li-menu">
               <button className="log-out-btn" onClick={logout}>

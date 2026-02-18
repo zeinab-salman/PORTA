@@ -1,6 +1,19 @@
-.social-form{
-      background-color:#1e1e1edf; 
+.social-form {
+  background-color: #1e1e1edf;
 }
-.social-form h3{
-    color: var(--title-span);
+.social-form h3 {
+  color: var(--title-span);
+}
+@media (max-width: 500px) {
+  .social-form {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .padding-sm {
+    padding: 10px 30px;
+  }
+  .social-form {
+    padding: 30px 15px;
+  }
 }

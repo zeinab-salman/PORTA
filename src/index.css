@@ -56,6 +56,9 @@ h1{
   font-size: 3.9rem;
   
 }
+@media (max-width:600px) {
+ h1{font-size: 3rem;}
+}
 h2,h3{
    font-family: "Fraunces", serif;
   font-weight: 600;

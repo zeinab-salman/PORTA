@@ -1,9 +1,16 @@
-.user-portfolio{
-background-image: url("../../../public/Images/bg1.png");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
+.user-portfolio {
+  background-image: url("../../../public/Images/bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
+@media (max-width: 650px) {
+  .portfolio-div {
+    width: 100%;
+    padding: 100px 20px;
+  }
+  .user-portfolio {
+    padding: 150px 20px;
+  }
+}

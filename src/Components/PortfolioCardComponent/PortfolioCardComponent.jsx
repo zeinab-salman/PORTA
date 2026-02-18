@@ -28,7 +28,7 @@ export default function PortfolioCardComponent({
           alt={`${person} image`}
           className="w-30 h-30 rounded-full"
         />
-        <h3>{person}</h3>
+        <h3 className="text-center">{person}</h3>
         <h5>{job}</h5>
         <div className="flex justify-center items-center gap-2 flex-wrap py-4">
           {skills.slice(0, 3).map((skill, id) => {

@@ -107,7 +107,7 @@ export default function AddExperience({ onClose }) {
         icon={FaPlus}
         text="Add Experience"
         onClick={handleSubmit}
-        padding="  px-33 py-2 flex items-center gap-2  "
+        padding="  px-33 py-2 flex items-center gap-2 padding-sm "
         type="submit"
       />
        <ButtonComponent
@@ -115,7 +115,7 @@ export default function AddExperience({ onClose }) {
         icon={MdDelete}
         text="Delete All"
         onClick={handleDeleteAll}
-        padding="  px-38 py-2 flex items-center gap-2  "
+        padding="  px-38 py-2 flex items-center gap-2 padding-sm"
       
       />
     </form>

@@ -1,3 +1,8 @@
-.how-works-section{
-    background-color: var(--background);
+.how-works-section {
+  background-color: var(--background);
+}
+@media (max-width: 600px) {
+  .how-works-section {
+    padding: 0px 10px;
+  }
 }

@@ -4,3 +4,8 @@
 .cards-featured-div {
   gap: 2%;
 }
+@media (max-width: 600px) {
+  .featured-portfolio-section {
+    padding: 100px 10px;
+  }
+}

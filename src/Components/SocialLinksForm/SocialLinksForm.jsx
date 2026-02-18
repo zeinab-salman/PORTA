@@ -80,7 +80,7 @@ export default function SocialLinksForm({ onClose }) {
         text="Save Changes"
         icon={MdSupervisorAccount}
         onClick={handleSubmit}
-        padding="px-33 py-2"
+        padding="px-33 py-2 padding-sm"
       />
       <AddExperience/>
     </form>
