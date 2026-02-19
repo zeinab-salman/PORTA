@@ -7,14 +7,15 @@ import { FaLinkedin } from "react-icons/fa6";
 export default function Footer() {
   return (
     <div className="footer flex justify-center items-center px-10 py-8 w-full gap-[15%] flex-wrap ">
-      <div className="text-6xl develop-text pb-10">
+      <div className="text-6xl develop-text pb-10 text-center">
         <h3>
-          Developed By <a>AlgoCode.</a>
+          Developed By <a href="https://algo-code.com">AlgoCode.</a>
         </h3>{" "}
       </div>
       <div className="flex flex-col justify-center items-start gap-1 text-white pb-10">
-        <img src={img1} alt="logo" className="w-100 h-20 object-cover " />
-      
+        <a href="#">
+          <img src={img1} alt="logo" className="w-100 h-20 object-cover " />
+        </a>
       </div>
       <div className="icons-footer flex flex-col justify-center items-center gap-2 text-6xl pb-10">
         <h2>Contact Us</h2>

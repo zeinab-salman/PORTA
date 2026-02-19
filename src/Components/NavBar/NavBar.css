@@ -5,16 +5,15 @@
 
 .open {
   display: block;
-  padding: 20px;
-  margin-top: 300px;
-  background-color:var(--background);
+  padding: 10px;
+  margin-top: 390px;
+  background-color: var(--background);
   border-radius: 10px;
   height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
 .li-menu {
   color: var(--text1);
@@ -25,17 +24,21 @@
   border-radius: 2%;
   padding: 5px;
 }
-.log-out-btn{
+.log-out-btn {
   cursor: pointer;
+  text-decoration: underline;
 }
-.display-none-icon{
+.display-none-icon {
   display: none;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .display-none {
     display: none;
   }
-  .display-none-icon{
-  display: block;
-}
+  .display-none-icon {
+    display: block !important;
+  }
+  .menu-nav {
+    height: 80px;
+  }
 }

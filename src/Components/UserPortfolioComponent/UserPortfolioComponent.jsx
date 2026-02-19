@@ -76,7 +76,7 @@ export default function UserPortfolioComponent() {
         </div>
         <div className="w-full">
           <h3 className="text-yellow-500">Experience</h3>
-          <div className="Experience-com flex justify-between items-center glass-effect px-10 py-10 mt-4 w-full">
+          <div className="Experience-com flex flex-col justify-center items-start glass-effect px-10 py-10 mt-4 w-full">
             {portfolio.experiences?.map((experience) => (
               <ExperienceComponent
                 key={experience.id}
@@ -91,10 +91,10 @@ export default function UserPortfolioComponent() {
 
         <div className="w-full">
           <h3 className="text-yellow-500">Featured Projects</h3>
-          <div className="glass-effect px-10 py-10 mt-4 gap-4  flex justify-between items-center ">
-            <img alt="project-1" src={portfolio.projectImg} width={300} />
+          <div className="glass-effect px-10 py-10 mt-4 gap-4  flex flex-col justify-center items-start ">
+            <img alt="project-1" src={portfolio.projectImg}  className="w-50 h-50 object-cover rounded-lg" />
             <div>
-              <h4 className=""> {portfolio.projectTitle}</h4>
+              <h4 className=""> {portfolio.projectTitle ||"no project available."}</h4>
               <a
                 href={portfolio.projectLink}
                 className="text-yellow-500 text-2xl"

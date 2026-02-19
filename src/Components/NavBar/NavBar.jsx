@@ -14,7 +14,7 @@ export default function NavBar() {
 
   return (
     <nav className="menu-nav  flex justify-between items-center w-full h-24 px-10 fixed">
-      <img src={logo} className="w-50 h-50 object-cover" />
+     <a href="#"><img src={logo} className="w-50 h-50 object-cover" /></a>
 
       <ul
         className={`w-[40%]h-full flex justify-center items-center gap-5 text-white   ${navOpen ? "open " : "display-none"}`}
@@ -34,7 +34,7 @@ export default function NavBar() {
         {user ? (
           <>
             <li className="li-menu">
-              <NavLink to="/EditProfile">My Portfolio</NavLink>
+              <NavLink to="/EditProfile">Portfolio</NavLink>
             </li>
             <li className="li-menu">
               <button className="log-out-btn" onClick={logout}>
