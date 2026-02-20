@@ -23,7 +23,7 @@ export default function AddExperience({ onClose }) {
     if (window.confirm("Do you want to delete all experiences?")) {
       savePortfolio({ experiences: [] });
     }
-  }
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -50,10 +50,8 @@ export default function AddExperience({ onClose }) {
       newExperience,
     ];
 
-   
     savePortfolio({ experiences: updatedExperiences });
 
- 
     setFormData({
       role: "",
       company: "",
@@ -110,13 +108,12 @@ export default function AddExperience({ onClose }) {
         padding="  px-33 py-2 flex items-center gap-2 padding-sm "
         type="submit"
       />
-       <ButtonComponent
+      <ButtonComponent
         typeclass="btn-1"
         icon={MdDelete}
         text="Delete All"
         onClick={handleDeleteAll}
         padding="  px-38 py-2 flex items-center gap-2 padding-sm"
-      
       />
     </form>
   );

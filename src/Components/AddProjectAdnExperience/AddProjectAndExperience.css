@@ -1,6 +1,5 @@
-
-.project-form h3{
-    color: var(--title-span);
+.project-form h3 {
+  color: var(--title-span);
 }
 @media (max-width: 500px) {
   .project-form {
@@ -8,10 +7,10 @@
   }
 }
 @media (max-width: 500px) {
-  .padding-sm{
-   padding:10px 30px
+  .padding-sm {
+    padding: 10px 30px;
   }
-   .project-form{
-    padding:30px 15px
+  .project-form {
+    padding: 30px 15px;
   }
 }

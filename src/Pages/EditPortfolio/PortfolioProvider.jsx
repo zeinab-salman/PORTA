@@ -68,7 +68,7 @@ export const PortfolioProvider = ({ children }) => {
         userId: user.id,
         person: updatedData.person || "",
         job: updatedData.job || "",
-        categor:updatedData.categor || "",
+        categor: updatedData.categor || "",
         email: updatedData.email || "",
         img: updatedData.img || "",
         bio: updatedData.bio || "",

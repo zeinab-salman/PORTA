@@ -21,12 +21,10 @@ export const StoreData = ({ children }) => {
     setAllUsers(allUsers);
   };
 
-  // UseEffect to load data into local state when the component mounts
   useEffect(() => {
     setAllUsers(JSON.parse(localStorage.getItem("all-users")) || []);
   }, []);
 
-  // Context value with all data and functions
   const value = useMemo(
     () => ({
       StoreData,

@@ -70,7 +70,6 @@ export default function AddProjectAndExperience({ onClose }) {
         onChange={handleChange}
       />
 
-    
       <FormInput type="file" onChange={handleImgChange} />
       <ButtonComponent
         typeclass="btn-1"

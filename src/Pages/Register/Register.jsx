@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 import { useStore } from "../../Components/Data/StoreData";
 import ButtonComponent from "../../Components/ButtonComponent/ButtonComponent";
-import { FaPlus } from "react-icons/fa6";
 import { MdSupervisorAccount } from "react-icons/md";
 import "./Register.css";
 export default function Register() {

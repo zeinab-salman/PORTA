@@ -19,7 +19,7 @@ export default function HomeHero() {
 
   const [searchTerm, setSearchTerm] = useState("");
   const filteredPortfolios = portfolios.filter((portfolio) => {
-    const matchesName = portfolio.person
+    const matchesName = portfolio.job
       ?.toLocaleLowerCase()
       .includes(searchTerm.toLocaleLowerCase());
 
@@ -46,7 +46,9 @@ export default function HomeHero() {
             {searchTerm !== "" && (
               <div className="search-result-sec absolute -right-10 mt-25 z-50 md:right-100 md:-top-10 sm:right-70 sm:-top-10 ">
                 {filteredPortfolios.length === 0 ? (
-                  <p className="not-found-text no-portfolio py-20 px-40 text-yellow-500">No portfolios found.</p>
+                  <p className="not-found-text no-portfolio py-20 px-40 text-yellow-500">
+                    No portfolios found.
+                  </p>
                 ) : (
                   filteredPortfolios.map((portfolio, id) => (
                     <SearchResultItem
@@ -61,12 +63,13 @@ export default function HomeHero() {
               </div>
             )}
             <Link to="/EditProfile">
-            <ButtonComponent
-              text="Create Portfolio  "
-              typeclass="btn-1"
-              icon={FaPlus}
-              padding="px-10 py-4"
-            /></Link>{" "}
+              <ButtonComponent
+                text="Create Portfolio  "
+                typeclass="btn-1"
+                icon={FaPlus}
+                padding="px-10 py-4"
+              />
+            </Link>{" "}
           </div>
         </div>
       </section>

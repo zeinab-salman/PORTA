@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./UserPortfolioComponent.css";
-import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
@@ -92,9 +91,16 @@ export default function UserPortfolioComponent() {
         <div className="w-full">
           <h3 className="text-yellow-500">Featured Projects</h3>
           <div className="glass-effect px-10 py-10 mt-4 gap-4  flex flex-col justify-center items-start ">
-            <img alt="project-1" src={portfolio.projectImg}  className="w-50 h-50 object-cover rounded-lg" />
+            <img
+              alt="project-1"
+              src={portfolio.projectImg}
+              className="w-50 h-50 object-cover rounded-lg"
+            />
             <div>
-              <h4 className=""> {portfolio.projectTitle ||"no project available."}</h4>
+              <h4 className="">
+                {" "}
+                {portfolio.projectTitle || "no project available."}
+              </h4>
               <a
                 href={portfolio.projectLink}
                 className="text-yellow-500 text-2xl"

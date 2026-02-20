@@ -24,14 +24,14 @@ export default function Login() {
         toasterId: "default",
         className: "toaster",
       });
-      return; 
+      return;
     }
 
     const users = JSON.parse(localStorage.getItem("users")) || [];
     console.log("Users in LocalStorage:", users);
 
     const user = users.find(
-      (u) => u.email === email.trim() && u.password === password.trim()
+      (u) => u.email === email.trim() && u.password === password.trim(),
     );
     console.log("Found User:", user);
 

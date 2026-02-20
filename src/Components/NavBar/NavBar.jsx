@@ -14,7 +14,9 @@ export default function NavBar() {
 
   return (
     <nav className="menu-nav  flex justify-between items-center w-full h-24 px-10 fixed">
-     <a href="#"><img src={logo} className="w-50 h-50 object-cover" /></a>
+      <a href="#">
+        <img src={logo} className="w-50 h-50 object-cover" />
+      </a>
 
       <ul
         className={`w-[40%]h-full flex justify-center items-center gap-5 text-white   ${navOpen ? "open " : "display-none"}`}

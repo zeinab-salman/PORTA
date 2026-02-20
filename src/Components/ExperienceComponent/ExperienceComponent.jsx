@@ -8,15 +8,15 @@ export default function ExperienceComponent({
 }) {
   return (
     <>
-    <div className="flex-wrap">
-      <div className="">
-        <p>Role : {role}</p>
-        <p>Company Name : {company}</p>
-      </div>
-      <p className="text-yellow-500 mb-5">
-        {period1} - {period2}
-      </p>
-      <div className="h-0.5 w-20 bg-amber-400 "></div>
+      <div className="flex-wrap">
+        <div className="">
+          <p>Role : {role}</p>
+          <p>Company Name : {company}</p>
+        </div>
+        <p className="text-yellow-500 mb-5">
+          {period1} - {period2}
+        </p>
+        <div className="h-0.5 w-20 bg-amber-400 "></div>
       </div>
     </>
   );

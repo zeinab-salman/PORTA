@@ -14,7 +14,7 @@ export default function PersonalInformationForm({ onClose }) {
     email: "",
     img: "",
     bio: "",
-    categor:"",
+    categor: "",
   });
 
   useEffect(() => {

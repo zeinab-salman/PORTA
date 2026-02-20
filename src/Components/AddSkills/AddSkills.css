@@ -8,8 +8,8 @@
   .padding-sm {
     padding: 10px 30px;
   }
-   .skills-form{
-    padding:30px 15px
+  .skills-form {
+    padding: 30px 15px;
   }
 }
 
@@ -17,5 +17,4 @@
   .skills-form {
     width: 100%;
   }
-
 }

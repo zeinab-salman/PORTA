@@ -4,9 +4,9 @@ import FormInput from "../../Components/FormInput/FormInput";
 import ButtonComponent from "../../Components/ButtonComponent/ButtonComponent";
 import { MdSupervisorAccount } from "react-icons/md";
 import "./SocialLinksForm.css";
-import AddExperience from "../../Components/AddExperience/AddExperience"
+import AddExperience from "../../Components/AddExperience/AddExperience";
 export default function SocialLinksForm({ onClose }) {
-  const { myPortfolio, savePortfolio } = useContext(PortfolioContext); 
+  const { myPortfolio, savePortfolio } = useContext(PortfolioContext);
 
   const [formData, setFormData] = useState({
     twitter: "",
@@ -35,8 +35,7 @@ export default function SocialLinksForm({ onClose }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    savePortfolio(formData); 
-
+    savePortfolio(formData);
   };
 
   return (
@@ -82,7 +81,7 @@ export default function SocialLinksForm({ onClose }) {
         onClick={handleSubmit}
         padding="px-33 py-2 padding-sm"
       />
-      <AddExperience/>
+      <AddExperience />
     </form>
   );
 }

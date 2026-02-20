@@ -1,11 +1,11 @@
-.collections-sec{
+.collections-sec {
   background-color: var(--background);
 }
-.portfolios-filter{
+.portfolios-filter {
   gap: 2%;
 }
-@media (max-width:600px) {
-  .collections-sec{
+@media (max-width: 600px) {
+  .collections-sec {
     padding: 100px 10px;
   }
 }

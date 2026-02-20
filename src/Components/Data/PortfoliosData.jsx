@@ -12,7 +12,6 @@ export const PortfoliosData = [
     job: "Senior Product Designer ",
     skills: ["UI/UX Design", "Figma", "Prototyping  "],
     categor: "Design",
-  
   },
   {
     id: 2,
