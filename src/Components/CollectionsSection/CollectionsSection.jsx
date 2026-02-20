@@ -52,7 +52,7 @@ export default function CollectionsSection() {
       <motion.div
         className="portfolios-filter flex justify-center items-center w-full flex-wrap gap-4 py-10"
         variants={containerVariants}
-        initial="hidden"
+        initial="visible"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
         style={{ listStyle: "none", padding: 0 }}

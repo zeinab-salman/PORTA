@@ -6,6 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 export default function Footer() {
   return (
+    <footer>
     <div className="footer flex justify-center items-center px-10 py-8 w-full gap-[15%] flex-wrap ">
       <div className="text-6xl develop-text pb-10 text-center">
         <h3>
@@ -34,5 +35,7 @@ export default function Footer() {
         </div>
       </div>
     </div>
+    <div className="copy-all-rights flex items-center justify-center w-full py-4"><p className="text-wrap text-center">&copy; 2026 PORTA. All rights reserved.</p></div>
+    </footer>
   );
 }

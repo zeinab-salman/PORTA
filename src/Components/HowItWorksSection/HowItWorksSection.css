@@ -5,4 +5,12 @@
   .how-works-section {
     padding: 20px 10px;
   }
+ 
+}
+@media (max-width: 1000px) {
+ 
+  .how-title{
+    align-items: center !important;
+    justify-content: center !important;
+  }
 }

@@ -1,5 +1,6 @@
 .register-form {
   background-color: #1e1e1edf;
+  color: var(--title);
 }
 .register-sec {
   background-image: url("../../../public/Images/bg1.png");

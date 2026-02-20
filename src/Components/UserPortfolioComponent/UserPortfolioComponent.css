@@ -3,6 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: var(--title);
 }
 
 @media (max-width: 650px) {

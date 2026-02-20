@@ -3,6 +3,7 @@
   background-color: var(--card);
   border: 0.1rem solid rgb(55, 55, 55);
   width: 31.7%;
+  color: var(--title);
 }
 .how-work-card:hover {
   border: 1px solid #dfaf37;

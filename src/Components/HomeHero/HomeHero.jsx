@@ -35,9 +35,9 @@ export default function HomeHero() {
             title1=" Discover"
             title2=" Talent"
             span1=" Exceptional"
-            text="Connect with top-tier professionals. Browse portfolios, find inspiration, and build your own stunning portfolio card."
+            text="Connect with top-tier professionals, Browse portfolios."
           />
-          <div className=" flex justify-center items-center mt-8 gap-4 flex-wrap mb-15 relative">
+          <div className="search-btn-div flex justify-center items-center mt-8 gap-4 flex-wrap mb-15 relative">
             <SearchComponent
               placeholder="Search by Role name..."
               searchTerm={searchTerm}
@@ -62,7 +62,7 @@ export default function HomeHero() {
                 )}
               </div>
             )}
-            <Link to="/EditProfile">
+            <Link to="/Login">
               <ButtonComponent
                 text="Create Portfolio  "
                 typeclass="btn-1"

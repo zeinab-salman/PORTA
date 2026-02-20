@@ -9,6 +9,7 @@ import ButtonComponent from "../ButtonComponent/ButtonComponent";
 import SkillComponent from "../SkillComponent/SkillComponent";
 import ExperienceComponent from "../ExperienceComponent/ExperienceComponent";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import img from "../../../public/Images/project2.jpg"
 export default function UserPortfolioComponent() {
   const { id } = useParams();
   const [portfolios, setPortfolios] = useState([]);
@@ -84,7 +85,7 @@ export default function UserPortfolioComponent() {
                 period1={experience.period1}
                 period2={experience.period2}
               />
-            ))}
+            ))|| "No Experiences, add one to improve your portfolio."}
           </div>
         </div>
 
@@ -93,7 +94,7 @@ export default function UserPortfolioComponent() {
           <div className="glass-effect px-10 py-10 mt-4 gap-4  flex flex-col justify-center items-start ">
             <img
               alt="project-1"
-              src={portfolio.projectImg}
+              src={portfolio.projectImg || img}
               className="w-50 h-50 object-cover rounded-lg"
             />
             <div>

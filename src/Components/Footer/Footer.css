@@ -7,3 +7,7 @@
 .develop-text {
   color: var(--title-span);
 }
+.copy-all-rights{
+ background-color: var(--card);
+ color: var(--title-span);
+}

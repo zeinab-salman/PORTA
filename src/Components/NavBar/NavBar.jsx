@@ -13,9 +13,9 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="menu-nav  flex justify-between items-center w-full h-24 px-10 fixed">
+    <nav className="menu-nav  flex justify-between items-center w-full h-24 px-10 fixed" >
       <a href="#">
-        <img src={logo} className="w-50 h-50 object-cover" />
+        <img src={logo} className="logo w-50 h-50 object-cover " />
       </a>
 
       <ul

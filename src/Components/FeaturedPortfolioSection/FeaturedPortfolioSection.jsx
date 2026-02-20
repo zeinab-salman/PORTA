@@ -11,7 +11,7 @@ import {
 export default function FeaturedPortfolioSection() {
   return (
     <section className="featured-portfolio-section px-10 py-8 flex flex-col justify-center items-center w-full ">
-      <div className="w-full flex justify-start items-start">
+      <div className="how-title w-full flex justify-start items-start">
         <TitleComponent
           title11="Featured "
           span2="Portfolio"
@@ -21,7 +21,7 @@ export default function FeaturedPortfolioSection() {
       <motion.div
         className="cards-featured-div  flex justify-center items-center  py-10 flex-wrap w-full "
         variants={containerVariants}
-        initial="hidden"
+        initial="visible"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
         style={{ listStyle: "none", padding: 0 }}

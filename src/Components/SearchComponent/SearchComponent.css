@@ -1,3 +1,9 @@
 .search-div {
   background-color: var(--background);
 }
+@media (max-width:700px) {
+  .search-div{
+   
+    padding: 6px;
+  }
+}
