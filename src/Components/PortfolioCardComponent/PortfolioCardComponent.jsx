@@ -26,7 +26,7 @@ export default function PortfolioCardComponent({
         <img
           src={img}
           alt={`${person} image`}
-          className="w-30 h-30 rounded-full gitblock object-cover aspect-square "
+          className="w-30 h-30 rounded-full block object-cover aspect-square "
         />
         <h3 className="text-center">{person}</h3>
         <h5>{job}</h5>
