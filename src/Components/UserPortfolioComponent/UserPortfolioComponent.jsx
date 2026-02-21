@@ -33,7 +33,7 @@ export default function UserPortfolioComponent() {
         <img
           src={portfolio.img}
           alt={portfolio.person}
-          className="portfolio-img w-40 rounded-full object-cover"
+          className="portfolio-img  block w-40 h-40 rounded-full object-cover aspect-square"
         />
         <h2 className="text-yellow-500">{portfolio.person}</h2>
         <p>{portfolio.job}</p>
