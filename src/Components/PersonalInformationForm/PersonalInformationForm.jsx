@@ -98,7 +98,7 @@ export default function PersonalInformationForm({ onClose }) {
         icon={MdSupervisorAccount}
         text="Save Changes"
         onClick={handleSubmit}
-        padding="px-33 py-2 padding-sm"
+        padding="px-33 py-2 sm-btn"
       />
     </form>
   );

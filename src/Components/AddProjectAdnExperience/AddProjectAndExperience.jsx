@@ -76,14 +76,14 @@ export default function AddProjectAndExperience({ onClose }) {
         icon={FaPlus}
         text="Add Project"
         onClick={handleSubmit}
-        padding="px-36 py-2 padding-sm"
+        padding="px-36 py-2 sm-btn"
       />
       <ButtonComponent
         typeclass="btn-1"
         icon={MdDelete}
         text="Delete All"
         onClick={handleDeleteAll}
-        padding="  px-38 py-2 flex items-center gap-2 padding-sm "
+        padding="  px-38 py-2 flex items-center gap-2 sm-btn "
       />
     </form>
   );

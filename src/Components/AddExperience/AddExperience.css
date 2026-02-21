@@ -4,9 +4,10 @@
   }
 }
 @media (max-width: 500px) {
-  .padding-sm {
-    padding: 10px 30px;
-  }
+ .sm-btn{
+  width: 100%;
+  padding: 10px 0px;
+ }
   .experience-form {
     padding: 30px 15px;
   }

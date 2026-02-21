@@ -1,3 +1,8 @@
 .categories-section {
   background-color: var(--background);
 }
+@media (max-width: 600px) {
+  .categories-section {
+    padding: 20px 10px;
+  }
+}

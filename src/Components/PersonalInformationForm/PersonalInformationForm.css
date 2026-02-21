@@ -4,16 +4,14 @@
 .personal-form h3 {
   color: var(--title-span);
 }
+
 @media (max-width: 500px) {
-  .personal-form {
+ .sm-btn {
     width: 100%;
-  }
-}
-@media (max-width: 500px) {
-  .padding-sm{
-   padding:10px 30px
+    padding: 10px 0px;
   }
   .personal-form{
-    padding:30px 15px
+    padding:30px 15px;
+      width: 100%;
   }
 }

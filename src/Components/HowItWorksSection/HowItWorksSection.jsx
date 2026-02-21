@@ -11,7 +11,7 @@ export default function HowItWorksSection() {
       <div className="how-title w-full flex justify-start items-start ">
         <TitleComponent title11="How it " span2=" Works" type22="sec-title" />
       </div>
-      <div className="w-full flex justify-center items-center gap-[2%] py-15 flex-wrap">
+      <div className="w-full flex justify-center items-center gap-[2%]  flex-wrap">
         <HowItWorkCard
           id="1"
           title="Discover & Filter"

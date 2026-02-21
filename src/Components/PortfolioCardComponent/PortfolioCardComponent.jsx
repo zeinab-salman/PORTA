@@ -46,7 +46,7 @@ export default function PortfolioCardComponent({
             text="View"
             icon={FaEye}
             typeclass="btn-1"
-            padding="px-[35%] py-3"
+            padding="px-[42%] py-3"
           />
         </div>
       </Link>

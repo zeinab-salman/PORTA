@@ -29,11 +29,11 @@ export default function UserPortfolioComponent() {
   }
   return (
     <section className="user-portfolio flex flex-col justify-center items-center min-h-lvh text-white w-full py-40">
-      <div className="portfolio-div glass-effect flex flex-col justify-center items-start gap-4 lg:px-20 py-20 lg:w-[70%] md:w-[95%] sm:w-[95%] md:px-10  sm:px-10">
+      <div className="portfolio-div glass-effect flex flex-col justify-center items-start gap-4 lg:px-20 py-15 lg:w-[70%] md:w-[96%] sm:w-[96%] md:px-7  sm:px-7">
         <img
           src={portfolio.img}
           alt={portfolio.person}
-          className="w-40 h-40 rounded-full object-cover"
+          className="portfolio-img w-40 rounded-full object-cover"
         />
         <h2 className="text-yellow-500">{portfolio.person}</h2>
         <p>{portfolio.job}</p>
@@ -85,7 +85,7 @@ export default function UserPortfolioComponent() {
                 period1={experience.period1}
                 period2={experience.period2}
               />
-            ))|| "No Experiences, add one to improve your portfolio."}
+            ))|| "No Experiences available in this portfolio."}
           </div>
         </div>
 

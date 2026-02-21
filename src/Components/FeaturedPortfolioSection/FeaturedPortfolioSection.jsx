@@ -19,10 +19,10 @@ export default function FeaturedPortfolioSection() {
         />
       </div>
       <motion.div
-        className="cards-featured-div  flex justify-center items-center  py-10 flex-wrap w-full "
+        className="cards-featured-div  flex justify-center items-center  flex-wrap w-full "
         variants={containerVariants}
-        initial="visible"
-        whileInView="visible"
+        initial="hidden"
+        animate="visible"
         viewport={{ once: true, amount: 0.3 }}
         style={{ listStyle: "none", padding: 0 }}
       >

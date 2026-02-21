@@ -67,7 +67,7 @@ export default function HomeHero() {
                 text="Create Portfolio  "
                 typeclass="btn-1"
                 icon={FaPlus}
-                padding="px-10 py-4"
+                padding="px-11 py-4"
               />
             </Link>{" "}
           </div>

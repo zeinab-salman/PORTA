@@ -16,7 +16,7 @@ export default function CategoriesSection() {
           type22="sec-title"
         />
       </div>
-      <div className="categories-div  flex  justify-center items-center  py-15  w-full flex-wrap gap-[4%]">
+      <div className="categories-div flex justify-center items-center py-3 w-full flex-wrap gap-[4%]">
         <CategoryComponent icon={BsBuildingsFill} category="Architecture" />
         <CategoryComponent icon={FaCode} category="Programming" />
         <CategoryComponent icon={GiChemicalDrop} category="Chemistry" />

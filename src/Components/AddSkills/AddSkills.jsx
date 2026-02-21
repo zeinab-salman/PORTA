@@ -8,9 +8,7 @@ import { MdDelete } from "react-icons/md";
 import AddProjectAndExperience from "../AddProjectAdnExperience/AddProjectAndExperience";
 export default function AddSkillsForm({ onClose }) {
   const { myPortfolio, savePortfolio } = useContext(PortfolioContext); // الحصول على بورتفوليو المستخدم
-
   const [skill, setSkill] = useState("");
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -44,19 +42,20 @@ export default function AddSkillsForm({ onClose }) {
         onChange={(e) => setSkill(e.target.value)}
         placeholder="Add a skill"
       />
+    
       <ButtonComponent
         typeclass="btn-1"
         icon={FaPlus}
         text="Add Skill"
         onClick={handleSubmit}
-        padding="px-38 py-2 padding-sm"
+        padding="px-38 py-2 sm-btn"
       />
       <ButtonComponent
         typeclass="btn-1"
         icon={MdDelete}
         text="Delete All"
         onClick={handleDeleteAll}
-        padding="  px-38 py-2 flex items-center gap-2 padding-sm "
+        padding="  px-38 py-2 flex items-center gap-2 sm-btn "
       />
       <AddProjectAndExperience />
     </form>
